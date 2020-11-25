@@ -8,13 +8,22 @@
     "declaration": false,
     "downlevelIteration": true,
     "experimentalDecorators": true,
-    "moduleResolution": "node",
+    "moduleResolution": "Node",
     "importHelpers": true,
     "target": "es2015",
     "module": "es2020",
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "skipLibCheck": true,
+    "paths": {
+      "stream": [
+        "node_modules/stream-browserify"
+      ],
+      "dns": [
+        "node_modules/node-libs-browser/mock/dns.js"
+      ]
+    }
   }
 }
