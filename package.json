@@ -1,5 +1,5 @@
 {
-  "name": "ng-ipfs-sample-app",
+  "name": "angular-ipfs-sample-app",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
