@@ -10,7 +10,6 @@ import { IpfsService } from './services/ipfs.service';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  title = 'Connected to IPFS';
   id = '';
   agentVersion = '';
 

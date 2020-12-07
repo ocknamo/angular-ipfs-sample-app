@@ -1,0 +1,59 @@
+$theme-color: #1976d2;
+
+h1 {
+  margin: 0;
+}
+
+.header {
+  background: $theme-color;
+  color: #ffffff;
+  height: 4em;
+  display: flex;
+  align-items: center;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+
+  .contents {
+    margin: 1em;
+    padding: 1.2em;
+    width: 46em;
+  }
+}
+
+.site-name {
+  margin-left: 2em;
+}
+
+.title {
+  font-size: 3.3em;
+  font-weight: 500;
+  margin: 0.5em 0;
+  color: $theme-color;
+}
+
+.row {
+  font-size: 1.5em;
+
+  span {
+    line-height: 2.5em;
+  }
+
+  .label {
+    color: $theme-color;
+    font-weight: 800;
+  }
+  .value {
+    margin-left: 0.5em;
+  }
+}
+
+.text {
+  color: #555555;
+}
+
+.loading {
+  color: #999999;
+}

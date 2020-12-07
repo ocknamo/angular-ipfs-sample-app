@@ -1,7 +1,24 @@
-<h1>IPFS Angular</h1>
+<header class="header">
+  <h1 role="site-name" class="site-name">IPFS On Angular</h1>
+</header>
+<div class="wrapper">
+  <div class="contents">
+    <div class="title">Connected to IPFS</div>
+    <div role="id" class="row">
+      <span class="label">id:</span>
+      <ng-container *ngIf="id; else lodingTemplate">
+        <span class="value text">{{ id }}</span>
+      </ng-container>
+    </div>
+    <div role="Agent Version" class="row">
+      <span class="label">Agent Version:</span>
+      <ng-container *ngIf="agentVersion; else lodingTemplate">
+        <span ng-if class="value text">{{ agentVersion }}</span>
+      </ng-container>
+    </div>
+  </div>
+</div>
 
-<span class="title">{{title}}</span>
-
-<div>id: {{id}}</div>
-
-<div>Agent Version: {{agentVersion}}</div>
+<ng-template #lodingTemplate>
+  <span ng-if class="value loading">Loading...</span>
+</ng-template>
