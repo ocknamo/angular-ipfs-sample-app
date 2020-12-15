@@ -23,8 +23,7 @@
       ],
       "dns": [
         "node_modules/node-libs-browser/mock/dns.js"
-      ],
-      "*": ["src/@types/*.d.ts"]
+      ]
     }
   }
 }

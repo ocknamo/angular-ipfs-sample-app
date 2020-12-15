@@ -69,4 +69,3 @@ global.Buffer = global.Buffer || require('buffer').Buffer;
   version: [],
   nextTick: require('next-tick')
   };
-// (window as any).ipfs = {};
