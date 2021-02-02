@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 
-import * as ipfs from 'ipfs';
-
 import { IpfsService } from './services/ipfs.service';
 
 @Component({

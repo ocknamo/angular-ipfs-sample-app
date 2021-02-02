@@ -8,7 +8,7 @@
     "declaration": false,
     "downlevelIteration": true,
     "experimentalDecorators": true,
-    "moduleResolution": "Node",
+    "moduleResolution": "node",
     "importHelpers": true,
     "target": "es2015",
     "module": "es2020",
@@ -16,7 +16,9 @@
       "es2018",
       "dom"
     ],
+    "types": ["node"],
     "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true,
     "paths": {
       "stream": [
         "node_modules/stream-browserify"

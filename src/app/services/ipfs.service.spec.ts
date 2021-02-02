@@ -1,8 +1,4 @@
-import { TestBed } from '@angular/core/testing';
-
 import { IpfsService } from './ipfs.service';
-
-// import * as Ipfs from 'ipfs';
 
 const mockIpfs = {
   create: () => Promise.resolve('This is mock node'),

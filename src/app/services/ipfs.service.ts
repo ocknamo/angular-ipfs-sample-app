@@ -1,6 +1,6 @@
 import { Inject, Injectable, Optional } from '@angular/core';
 
-import * as Ipfs from 'ipfs';
+import * as Ipfs from 'ipfs-core';
 import { PromiseType } from '../../libs/types';
 
 @Injectable({
