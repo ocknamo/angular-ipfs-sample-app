@@ -19,5 +19,10 @@ export class AppComponent implements OnInit {
     const { id, agentVersion } = await node.id();
     this.id = id;
     this.agentVersion = agentVersion;
+
+    // add
+    const description = await node.add('Hello World.');
+
+    console.log('LOG→ description: ', description);
   }
 }

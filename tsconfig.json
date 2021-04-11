@@ -16,15 +16,11 @@
       "es2018",
       "dom"
     ],
-    "types": ["node"],
     "skipLibCheck": true,
     "allowSyntheticDefaultImports": true,
     "paths": {
       "stream": [
         "node_modules/stream-browserify"
-      ],
-      "dns": [
-        "node_modules/node-libs-browser/mock/dns.js"
       ]
     }
   }
